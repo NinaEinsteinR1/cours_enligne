@@ -1,0 +1,158 @@
+/* Reset */
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* List styles */
+.list {
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list__title {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__title a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.list__title a i {
+    margin-left: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.cours__title {
+    width: 30%;
+}
+
+.cours__desc {
+    width: 40%;
+}
+
+/* Create and Edit buttons */
+.etudiant__create--link,
+.etudiant__edit--link,
+.enseignant__create--link,
+.enseignant__edit--link {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.etudiant__create--link i,
+.etudiant__edit--link i,
+.enseignant__create--link i,
+.enseignant__edit--link i {
+    margin-right: 5px;
+}
+
+/* Delete buttons */
+a i.fa-trash {
+    color: red;
+}
+
+.form__submit {
+    color: #bebebe;
+    background: #353535;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.form__half-width {
+    width: 45%;
+}
+
+.form__select {
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form__btn {
+    display: flex;
+    align-items: center;
+}
+
+.delete {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.form__create label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form__create input[type=text] {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #d8e8fe9d;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.form__prenom, .form__nom, .form__phone, .form__courriel {
+    width: 45%;
+}
+
+.form__nomComplet {
+    margin-top: 30px;
+}
